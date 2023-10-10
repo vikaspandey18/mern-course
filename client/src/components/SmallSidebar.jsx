@@ -4,7 +4,7 @@ import { useDashboardContext } from "../pages/DashboardLayout";
 import Logo from "./Logo";
 import links from "../utils/links";
 import { NavLink } from "react-router-dom";
-import Navlinks from "./Navlinks";
+import Navlinkss from "./Navlinks";
 
 const SmallSidebar = () => {
   const { showSidebar, toggleSidebar } = useDashboardContext();
@@ -23,7 +23,7 @@ const SmallSidebar = () => {
           <header>
             <Logo />
           </header>
-          <Navlinks />
+          <Navlinkss />
         </div>
       </div>
     </Wrapper>
